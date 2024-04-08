@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Juego.css">
+    <title>Juego de Tarjetas</title>
+</head>
+<body>
+    <h3>JUEGO DE TARJETAS</h3>
+    <div class="container">
+        <table>
+            <tr>
+                <td><button id="0" onclick="inicio(0)">?</button></td>
+                <td><button id="1" onclick="inicio(1)">?</button></td>
+                <td><button id="2" onclick="inicio(2)">?</button></td>
+                <td><button id="3" onclick="inicio(3)">?</button></td>
+                <td><button id="4" onclick="inicio(4)">?</button></td>
+                <td><button id="5" onclick="inicio(5)">?</button></td>
+            </tr>
+            <tr>
+                <td><button id="6" onclick="inicio(6)">?</button></td>
+                <td><button id="7" onclick="inicio(7)">?</button></td>
+                <td><button id="8" onclick="inicio(8)">?</button></td>
+                <td><button id="9" onclick="inicio(9)">?</button></td>
+                <td><button id="10" onclick="inicio(10)">?</button></td>
+                <td><button id="11" onclick="inicio(11)">?</button></td>
+            </tr>
+            <tr>
+                <td><button id="12" onclick="inicio(12)">?</button></td>
+                <td><button id="13" onclick="inicio(13)">?</button></td>
+                <td><button id="14" onclick="inicio(14)">?</button></td>
+                <td><button id="15" onclick="inicio(15)">?</button></td>
+                <td><button id="16" onclick="inicio(16)">?</button></td>
+                <td><button id="17" onclick="inicio(17)">?</button></td>
+            </tr>
+        </table>
+        <p id="contadorTiempo">Tiempo: 60 segundos</p>
+        <p id="contadorMovimientos">Movimientos: 0</p>
+        <p id="contadorPuntaje">Puntaje: 0</p>
+        <p id="contadorPares">Pares encontrados: 0 / 9</p>
+    </div>
+    <div id="reiniciar"></div>
+</body>
+<script src="juego.js"></script>
+</html>
